@@ -146,9 +146,9 @@ methodCollection.logHello
 
 function makePerson(name, birthday, ssn) {
   var newObj = {};
-  newObj.p1 = name;
-  newObj.p2 = birthday;
-  newObj.p3 = ssn;
+  newObj.name = name;
+  newObj.birthday = birthday;
+  newObj.ssn = ssn;
   return newObj;
   }
   
@@ -160,5 +160,9 @@ function makePerson(name, birthday, ssn) {
 */
 
 function makeCard(cardNumber, expirationDate, securityCode){
-
+  var creditCard = {};
+  creditCard.number = cardNumber;
+  creditCard.date = expirationDate;
+  creditCard.code = securityCode;
+  return creditCard
 }
