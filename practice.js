@@ -144,8 +144,10 @@ methodCollection.logHello
   Return a new object with all of the information that you passed in.
 */
 
-//Code Here
-
+function makePerson(name, birthday, ssn); {
+  return 
+  }
+  
 ////////// PROBLEM 7 //////////
 
 /*
@@ -153,4 +155,4 @@ methodCollection.logHello
   Return that object so that whenever you invoke makeCard, you get a brand new credit card.
 */
 
-//Code Here
+
