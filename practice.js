@@ -14,7 +14,11 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+var me = {
+  name: 'Evan',
+  age: 24,
+}
+alert(me.name)
 
 ////////// PROBLEM 2 //////////
 
@@ -23,7 +27,14 @@
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
+var favoriteThings = {
+  band: 'Virginia Man',
+  food: 'anything grilled',
+  person: 'Jesus',
+  book: 'Pilgrims Guide to Rest',
+  movie: 'Ready Player One',
+  holiday: 'Christmas'
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
